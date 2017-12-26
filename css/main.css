@@ -1,0 +1,28 @@
+/* reutilizables */
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+/* Estilos para el index */
+.first-body {
+  background-color: rgb(54, 53, 53);
+}
+
+.first-title {
+  color: rgb(201, 141, 12);
+  font-size: 11vh;
+}
+
+/* estilos para la pagina principal*/

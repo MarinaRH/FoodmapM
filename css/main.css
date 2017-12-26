@@ -1,7 +1,8 @@
 /* reutilizables */
 
 body {
-	font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: rgb(201, 141, 12);
 }
 
 .container-flex-column {
@@ -26,3 +27,39 @@ body {
 }
 
 /* estilos para la pagina principal*/
+
+/* pseudoclase para las lineas */
+hr {
+  width: 90%;
+  display: inline-block;
+  border-top: 2px solid rgb(194, 193, 193);
+}
+span.line::before {
+  display: inline-block;
+  border: 2px solid rgb(168, 167, 167);
+  content: " ";
+  width: 16px;
+  height: 17px;
+  position: relative;
+  top: -11px;
+  box-sizing: border-box;
+}
+
+span.line::after {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 2px solid rgb(202, 201, 201);
+  content: " ";
+  width: 16px;
+  height: 17px;
+  position: relative;
+  top: -11px;
+}
+
+.height {
+  height: 30vh;
+
+}
+.col-xs-4, .col-xs-6 {
+  padding: 7px;
+}

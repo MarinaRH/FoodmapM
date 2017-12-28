@@ -29,7 +29,7 @@ body {
 /* estilos para la pagina principal*/
 
 /* pseudoclase para las lineas */
-hr {
+.hr {
   width: 90%;
   display: inline-block;
   border-top: 2px solid rgb(194, 193, 193);
@@ -62,4 +62,20 @@ span.line::after {
 }
 .col-xs-4, .col-xs-6 {
   padding: 7px;
+}
+
+.search {
+  background-color: rgb(104, 103, 103);
+  color: white;
+}
+
+.img {
+  height: 110px;
+  width: 33%;
+  float: left;
+  padding: 4px;
+}
+
+p.name {
+  display: none;
 }

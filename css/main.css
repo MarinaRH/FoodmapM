@@ -3,6 +3,7 @@
 body {
   font-family: 'Raleway', sans-serif !important;
   color: rgb(201, 141, 12);
+  font-size:16px;
 }
 
 .container-flex-column {
@@ -95,6 +96,7 @@ p.typ {
 }
 
 .img-hover{
-  border-radius: 50%;
+  border-radius: 80%;
   opacity:0.5;
+  padding: 21px;
 }

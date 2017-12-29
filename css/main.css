@@ -70,12 +70,16 @@ span.line::after {
 }
 
 .img {
-  height: 110px;
-  width: 33%;
+  height: 30vh;
+  width: 33.3%;
   float: left;
   padding: 4px;
 }
 
+#img-foot {
+  margin: 0 20px ;
+  box-sizing: border-box;
+}
 p.name {
   display: none;
 }

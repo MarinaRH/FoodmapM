@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+.weight {
+  font-weight: 700;
+}
+
 /* Estilos para el index */
 .first-body {
   background-color: rgb(54, 53, 53);
@@ -34,6 +38,7 @@ body {
   display: inline-block;
   border-top: 2px solid rgb(194, 193, 193);
 }
+
 span.line::before {
   display: inline-block;
   border: 2px solid rgb(168, 167, 167);
@@ -86,8 +91,10 @@ p.typ {
 
 #img-modal {
   width: 60vh;
+  border-radius: 14px;
 }
 
-.img-restaurant img:hover {
+.img-hover{
   border-radius: 50%;
+  opacity:0.5;
 }

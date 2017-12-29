@@ -2,8 +2,8 @@ var data = [
   {
     'typeFood':'coreana',
     'name':'Sr Kim',
-    'address':'san Borja 333',
-    'phone':'374777',
+    'address':'San Borja Este n° 876',
+    'phone':'(01) 374-9777',
     'class':'Gourmet',
     'img':'../assets/img/coreano.jpg'
   },
@@ -35,15 +35,15 @@ var data = [
     'typeFood':'italiano',
     'name':'La Piccolina',
     'address':'Surco n° 656',
-    'phone':'9574747377/9757575777',
+    'phone':'9574747377 -  9757575777',
     'class':'Gourmet',
     'img':'../assets/img/italiano2.jpg'
   },
   {
     'typeFood':'italiano',
-    'name':'Sr uuuu',
-    'address':'san jjjj 333',
-    'phone':'374777',
+    'name':'PastaP',
+    'address':'Javier Prado Oeste 234',
+    'phone':'989-878-432',
     'class':'gourmet',
     'img':'../assets/img/italiano3.jpg'
   },

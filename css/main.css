@@ -1,6 +1,8 @@
 /* reutilizables */
 
 body {
+  border: 0;
+  padding: 0;
   font-family: 'Raleway', sans-serif !important;
   color: rgb(201, 141, 12);
   font-size:16px;
@@ -79,7 +81,8 @@ span.line::after {
   height: 30vh;
   width: 33.3%;
   float: left;
-  padding: 4px;
+  padding: 3px;
+  box-sizing: border-box;
 }
 
 #img-foot {
@@ -90,13 +93,18 @@ p.typ {
   display: none;
 }
 
-#img-modal {
-  width: 60vh;
-  border-radius: 14px;
-}
-
 .img-hover{
   border-radius: 80%;
   opacity:0.5;
   padding: 21px;
+}
+
+/* estilos para modal */
+#img-modal {
+  width:60%;
+  border-radius: 14px;
+}
+
+.modal {
+  width: 100%;
 }

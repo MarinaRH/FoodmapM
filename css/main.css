@@ -80,6 +80,6 @@ span.line::after {
   margin: 0 20px ;
   box-sizing: border-box;
 }
-p.name {
+p.typ {
   display: none;
 }

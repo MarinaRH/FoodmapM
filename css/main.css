@@ -83,3 +83,11 @@ span.line::after {
 p.typ {
   display: none;
 }
+
+#img-modal {
+  width: 60vh;
+}
+
+.img-restaurant img:hover {
+  border-radius: 50%;
+}

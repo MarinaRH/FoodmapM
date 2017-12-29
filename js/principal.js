@@ -21,4 +21,17 @@ $(document).ready(function(){
       }
     });
   });
+  // $('.collection').on('click',function() {
+  //   for (i = 0; i < data.length; i++) {
+  //     if ($(this).data('name') === data[i].name) {
+  //       $('.logo-restaurant').attr('src', data[i].img);
+  //       $('#title-modal').text(data[i].addres);
+  //     }
+  //   }
+  // funcion para agregar datos a modal
+  $('.collection').on('click',function() {
+    for (i = 0; i < data.length; i++) {
+      $('.modal-body').append('<div class="text-center"><h1>' + data[i].name + '</h1><div><img class="img"  src=' + data[i].img + '></div><span ></span>' + data[i].addres + '<span>' + data[i].phone + '</span><button type="button" class="btn btn-primary">Pedido</button></div>');  
+    }
+  });
 });

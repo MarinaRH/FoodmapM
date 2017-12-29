@@ -10,7 +10,7 @@ var data = [
   {
     'typeFood':'peruvian',
     'name':'Sr uuuu',
-    'addres':'san Borja 333',
+    'addres':'san jjjj 333',
     'phone':'374777',
     'class':'gourmet',
     'img':'../assets/img/comida2.jpg'
@@ -18,7 +18,7 @@ var data = [
   {
     'typeFood':'coreana',
     'name':'jjfjfjfjf Kim',
-    'addres':'san Borja 333',
+    'addres':'syyyy',
     'phone':'374777',
     'class':'gourmet',
     'img':'../assets/img/coreano2.jpg'
@@ -26,7 +26,7 @@ var data = [
   {
     'typeFood':'peruvian',
     'name':'aaaaa',
-    'addres':'san Borja 333',
+    'addres':'hhhh',
     'phone':'374777',
     'class':'gourmet',
     'img':'../assets/img/comida3.jpg'

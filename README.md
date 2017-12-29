@@ -23,7 +23,11 @@ Crea una web-app que a través de un input pueda filtrar los restaurantes que se
 
 ## Flujo de la aplicación
 
-![botones de Control](assets/20171227_014957.gif)
+![footmap](assets/img/flujo1.png)
+![map](assets/img/flujo2.png)
+![restaurant](assets/img/flujo3.png)
+![filtro](assets/img/flujo4.png)
+![modal](assets/img/flujo5.png)
 
 ## Desarrollado con:
 

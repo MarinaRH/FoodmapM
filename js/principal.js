@@ -11,7 +11,7 @@ $(document).ready(function(){
   
   // primero ocultar todas las imagenes de restaurant
   $('#search').keyup(function() {
-    var nombre = $(this).val();
+    var nombre = $(this).val().toLowerCase();
     $('.img-restaurant').hide();
 
     // funcion para filtrar por tipo de comida arabe-italiana-peruana-coreana
